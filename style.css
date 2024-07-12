@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  overflow-y: none;
-  overflow-x: none;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 html {
   font-size: 10px;
@@ -24,7 +24,7 @@ body {
     rgba(118, 80, 250, 1) 78%,
     rgba(151, 0, 255, 1) 100%
   );
-  overflow: none;
+  overflow: hidden;
 }
 
 .container {
