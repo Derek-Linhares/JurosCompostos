@@ -24,6 +24,7 @@ body {
     rgba(118, 80, 250, 1) 78%,
     rgba(151, 0, 255, 1) 100%
   );
+  overflow: none;
 }
 
 .container {
