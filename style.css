@@ -24,7 +24,6 @@ body {
     rgba(118, 80, 250, 1) 78%,
     rgba(151, 0, 255, 1) 100%
   );
-  overflow: hidden;
 }
 
 .container {
@@ -32,7 +31,7 @@ body {
   width: 50rem;
   height: 60rem;
   border-radius: 1rem;
-  padding: 3rem;
+  padding: 2rem;
   color: aliceblue;
   box-shadow: 1rem 1rem 3.7rem 0rem rgba(0, 0, 0, 0.75);
 }
@@ -142,6 +141,9 @@ input:focus {
 
 #total {
   text-align: center;
+  width: 50rem;
+  height: 8rem;
+  margin-top: 2rem;
 }
 
 @media (max-height: 1440px) {

@@ -38,14 +38,12 @@ function calc() {
 function changeStyle(error) {
   var total = document.getElementById("total");
   if (error) {
-    total.style.fontSize = "20px";
-    total.style.marginTop = "20px";
-    total.style.marginBottom = "20px";
+    total.style.fontSize = "2rem";
+
     total.innerHTML = "Nenhum dos campos deve estar vazio";
   } else {
     total.style.fontSize = "";
-    total.style.marginTop = "";
-    total.style.marginBottom = "";
+
     total.innerHTML =
       '<p id="resultado">Resultado:</p><h1>R$ <span id="valor">0,00</span></h1>';
   }
