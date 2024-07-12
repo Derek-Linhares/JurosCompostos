@@ -22,18 +22,18 @@
 			<div id="calculator">
 				<div id="inputBox">
 					<label for="init">Valor inicial (capital):</label>
-					<input type="text" id="init" oninput="this.value = this.value.replace(/[^0-9 . ,]/g, '')"
-						type="number" min=1 max="9999999999" />
+					<input type="number" id="init" oninput="this.value = this.value.replace(/[^0-9 . ,]/g, '')" min=0
+						max="9999999999" />
 				</div>
 				<div id="inputBox">
 					<label for="juros">Taxa de juros a.m:</label>
-					<input type="text" id="juros" oninput="this.value = this.value.replace(/[^0-9 . ,]/g, '')"
-						type="number" min=1 max="9999999999" />
+					<input type="number" id="juros" oninput="this.value = this.value.replace(/[^0-9 . ,]/g, '')" min=0
+						max="9999999999" />
 				</div>
 				<div id="inputBox">
 					<label for="time">Tempo de rendimento (meses):</label>
-					<input type="text" id="time" oninput="this.value = this.value.replace(/[^0-9 . ,]/g, '')"
-						type="number" min=1 max="9999999999" />
+					<input type="number" id="time" oninput="this.value = this.value.replace(/[^0-9 . ,]/g, '')" min=0
+						max="9999999999" />
 				</div>
 
 				<div id="total">
