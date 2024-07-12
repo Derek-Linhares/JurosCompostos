@@ -105,6 +105,10 @@ input:focus {
   outline: none;
 }
 
+#init {
+  background-color: transparent;
+}
+
 .calcular {
   border: none;
   background-image: linear-gradient(
@@ -169,6 +173,6 @@ input:focus {
 
 @media (max-width: 768px) {
   html {
-    font-size: 8.2px;
+    font-size: 7.8px;
   }
 }
